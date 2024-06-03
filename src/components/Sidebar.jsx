@@ -5,15 +5,15 @@ import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 const Sidebar = () => {
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-            <Grid container spacing={2}>
+            <Grid container spacing={0}>
                 <Grid xs={4}>
-                    <Box my={2} display="flex" alignItems="center" sx={{ border: '2px solid grey' }}>
-                        <Button variant="contained">Info</Button>
+                    <Box alignItems="center" sx={{ display: 'flex', border: '2px solid grey', flexDirection: 'column' }}>
+                        Info Boxrwqerwe
                     </Box>
                 </Grid>
                 <Grid xs={8}>
-                    <Box my={2} display="flex" alignItems="center" sx={{ border: '2px solid grey' }}>
-                        <Button variant="contained">More Info</Button>
+                    <Box alignItems="center" sx={{ display: 'flex', border: '2px solid grey', flexDirection: 'column' }}>
+                        More Info Bopx 2
                     </Box>
                 </Grid>
             </Grid>
